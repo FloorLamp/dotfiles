@@ -1,0 +1,32 @@
+{
+  "bold_folder_labels": true,
+  "caret_style": "phase",
+  "color_scheme": "Packages/Theme - Afterglow/Afterglow-monokai.tmTheme",
+  "ensure_newline_at_eof_on_save": true,
+  "fade_fold_buttons": false,
+  "flatland_sidebar_tree_small": true,
+  "flatland_square_tabs": true,
+  "font_size": 12,
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "ignored_packages":
+  [
+    "CSS",
+    "SublimeLinter",
+    "Vintage"
+  ],
+  "indent_to_bracket": true,
+  "line_padding_bottom": 1,
+  "line_padding_top": 1,
+  "rulers":
+  [
+  ],
+  "show_definitions": false,
+  "tab_size": 2,
+  "tabs_padding_small": true,
+  "tabs_small": true,
+  "theme": "Afterglow-green.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "word_wrap": true
+}
