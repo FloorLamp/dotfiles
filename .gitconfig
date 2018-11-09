@@ -1,0 +1,17 @@
+[user]
+	name = _
+	email = _
+	signingkey = _
+[core]
+	pager = diff-so-fancy | less --tabs=4 -RFX
+[push]
+	default = simple
+[diff "bin"]
+	textconv = hexdump -v -C
+[alias]
+  up = !git pull --rebase --prune $@ && git submodule update --init --recursive
+  bclean = "!f() { git checkout ${1-master} && git branch --merged ${1-master} | grep -v " ${1-master}$" | xargs git branch -d; }; f"
+  rbclean = "!f() { git branch -r --merged | grep -v master | sed 's/\\// /' | xargs -n 2 git push --delete; }; f"
+  bdone = "!f() { git checkout ${1-master} && git up && git bclean ${1-master}; }; f"
+[commit]
+	gpgsign = true
