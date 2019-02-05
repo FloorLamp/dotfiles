@@ -1,3 +1,6 @@
+# bindings
+bindkey \^U backward-kill-line
+
 ZSH_THEME="lambda"
 
 alias l='ls -lahF'
